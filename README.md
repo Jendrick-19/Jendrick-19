@@ -57,6 +57,6 @@ Aquí verás mi evolución desde el "Hola Mundo" hasta aplicaciones más complej
 <div align="center">
   <p>📍 Estudiando en Jaén | 🎯 Buscando prácticas futuras en Málaga/Linares</p>
   <a href="TU_ENLACE_A_LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin](https://www.linkedin.com/in/alejandro-montilla-aguilar-b3361530a)" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin]([https://www.linkedin.com/in/alejandro-montilla-aguilar-b3361530a](https://www.linkedin.com/in/alejandro-montilla-aguilar-b3361530a/))" />
   </a>
 </div>
