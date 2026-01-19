@@ -68,7 +68,7 @@ Soy un profesional **responsable y flexible** con una base sólida en administra
   <a href="https://www.linkedin.com/in/alejandro-montilla-aguilar-b3361530a/">
     <img src="https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:TU_EMAIL_AQUI">
+  <a href="mailto:a.montilla.aguilar19@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contactar-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </div>
