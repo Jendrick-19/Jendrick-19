@@ -1,61 +1,74 @@
-### 👋 Hola, soy Alejandro (Jendrick-19)
-
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0099ff&height=220&section=header&text=Alejandro%20Montilla&fontSize=50&animation=fadeIn&fontAlignY=35&desc=SysAdmin%20(ASIR)%20%2B%20DAM%20Student&descAlignY=55&descAlign=50" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0099ff&height=220&section=header&text=Alejandro%20Montilla&fontSize=50&animation=fadeIn&fontAlignY=35&desc=SysAdmin%20(ASIR)%20%2B%20DAM%20Student&descAlignY=55&descAlign=50" width="100%"/>
 </div>
 
-### 🎓 Sobre mí
-Soy un profesional **responsable y flexible**, con una base sólida en sistemas y muchas ganas de evolucionar hacia el desarrollo seguro.
+### 👋 Hola, soy Alejandro (Jendrick-19)
 
-* 🛠 **Mi Background:** Técnico Superior en Administración de Sistemas (ASIR) por el IES Las Fuentezuelas.
-* 🚀 **Mi Actualidad:** Cursando 1º de DAM en **MEDAC Aventura** para dominar la parte de software.
-* 💼 **Experiencia Real:** Ex-becario de Sistemas en **Innovasur**, donde toqué entorno corporativo real.
+> **SysAdmin en transición a Full Stack Developer | Futuro DevOps**
 
----
-
-### 💼 Experiencia Profesional Destacada
-
-| Rol | Empresa | Fecha | Tecnologías clave |
-| :--- | :--- | :--- | :--- |
-| **Becario de Sistemas** | **Innovasur** | Mar 2025 - Jun 2025 | Soporte TI, Gestión de Redes, Mantenimiento de Equipos |
+Soy un profesional **responsable y flexible** con una base sólida en administración de sistemas y redes (ASIR), actualmente evolucionando hacia el desarrollo de software (DAM). Mi objetivo es dominar ambas áreas para crear y desplegar software seguro y escalable.
 
 ---
 
-### 🛠️ Mi Stack Técnico
+### 🛠️ Tech Stack & Herramientas
 
-Basado en mi formación ASIR y mis estudios actuales en DAM:
+**💻 Desarrollo & Core**
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-| 💻 Sistemas & Redes (Nivel Técnico) | 📚 Desarrollo & Herramientas (En aprendizaje) |
-| :--- | :--- |
-| **S.O.:** Windows Server, Linux (Ubuntu/CentOS) | **Lenguaje:** Java (Fundamentos/POO) |
-| **Infraestructura:** Active Directory, GPO, DNS, DHCP | **BBDD:** MySQL (Consultas SQL) |
-| **Virtualización:** Proxmox VE, Hyper-V, VirtualBox | **IDE:** VS Code, IntelliJ |
-| **Scripting:** PowerShell & Bash Scripting | **Control de versiones:** Git & GitHub |
-
----
-
-### 🔧 Proyectos Principales
-
-#### 1. [Infraestructura K8s en Proxmox](LINK_A_TU_REPO_KUBERNETES) ☁️
-*Proyecto Final de Grado (ASIR).*
-Diseño y despliegue de un clúster de Kubernetes de Alta Disponibilidad sobre Proxmox VE, simulando un entorno de producción real.
-> **Tech:** Ansible, Docker, Linux, Networking (CNI Calico).
-
-#### 2. [Prácticas de Java y Algoritmia](LINK_A_TU_REPO_JAVA) ☕
-*Repositorio de aprendizaje DAM.*
-Colección de ejercicios y pequeñas aplicaciones donde aplico la Programación Orientada a Objetos.
-> **Estado:** 🟡 Aprendiendo estructuras de datos y lógica.
+**☁️ Sistemas, Cloud & DevOps**
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white)
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
 
 ---
 
-### 🌐 Idiomas
-![Spanish](https://img.shields.io/badge/Español-Nativo-green) ![English](https://img.shields.io/badge/Inglés-B1%20(En%20progreso)-blue)
+### 💼 Experiencia & Formación
+
+| Cronología | Rol / Título | Lugar |
+| :--- | :--- | :--- |
+| **Actualidad** | 🎓 **Estudiante 1º DAM** | *MEDAC Aventura* |
+| **2025** | 💼 **Becario de Sistemas** | *Innovasur* |
+| **2025** | 🎓 **Técnico Superior ASIR** | *IES Las Fuentezuelas* |
+
+> 💡 **En Innovasur:** Trabajé en un entorno corporativo real gestionando soporte TI, redes y mantenimiento de equipos críticos.
+
+---
+
+### 🔧 Proyectos Destacados
+
+#### ☁️ [Infraestructura K8s en Proxmox](LINK_A_TU_REPO)
+**Proyecto Final ASIR.** Despliegue de un clúster de Kubernetes de Alta Disponibilidad simulando producción.
+* **Tech:** `Ansible` `Docker` `Linux` `Calico CNI`
+* **Impacto:** Automatización del despliegue y gestión de contenedores.
+
+#### ☕ [Laboratorio de Java & POO](LINK_A_TU_REPO)
+**Repositorio de aprendizaje DAM.** Colección de algoritmos y aplicaciones de consola aplicando patrones de diseño.
+* **Estado:** 🟡 En desarrollo constante.
+
+---
+
+### 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Jendrick-19&show_icons=true&theme=tokyonight&hide_border=true" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jendrick-19&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="languages graph" />
+</div>
 
 ---
 
 <div align="center">
-  <p>📍 La Guardia (Jaén) | 🎯 Objetivo: Evolutio</p>
+  <p>📍 <b>La Guardia (Jaén)</b> | 🗣️ <b>Español (Nativo) - Inglés (B1)</b></p>
+  
   <a href="https://www.linkedin.com/in/alejandro-montilla-aguilar-b3361530a/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
+    <img src="https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:TU_EMAIL_AQUI">
+    <img src="https://img.shields.io/badge/Email-Contactar-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </div>
