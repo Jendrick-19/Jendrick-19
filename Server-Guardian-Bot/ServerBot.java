@@ -9,8 +9,8 @@ import java.util.TimerTask;
 public class ServerBot {
 
     // ⚠️ TUS CREDENCIALES (Recuerda borrarlas antes de subir a GitHub)
-    private static final String BOT_TOKEN = "7902953950:AAFG3eEYevprwQVJ2LLdvFcMBk_BHicUDCA";
-    private static final String CHAT_ID = "6125447323";
+    private static final String BOT_TOKEN = "PON_AQUI_TU_TOKEN";
+    private static final String CHAT_ID = "PON_AQUI_TU_ID";
 
     public static void main(String[] args) {
         System.out.println("🤖 Bot Vigilante Iniciado...");
