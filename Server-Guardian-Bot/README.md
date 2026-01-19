@@ -1,28 +1,34 @@
-# 🕵️‍♂️ Server Guardian Bot
+# 🕵️‍♂️ Server Guardian Bot (Interactive Edition)
 
-**Herramienta de monitorización automatizada (SysAdmin + Dev)**
+**Asistente de SysAdmin remoto controlado por Telegram.**
 
-Este proyecto es un **Bot de Telegram desarrollado en Java** que monitoriza en tiempo real el estado de un servidor o PC local. Si detecta anomalías (caída de internet o disco lleno), envía una alerta crítica al móvil del administrador.
+Este proyecto es una evolución del monitor clásico. En lugar de solo enviar alertas, este **Bot Interactivo programado en Java** escucha comandos del usuario en tiempo real para devolver métricas del servidor bajo demanda.
 
-### 🚀 Funcionalidades
-* **Conectividad:** Realiza pings periódicos a DNS externos (8.8.8.8) para verificar la salida a Internet.
-* **Almacenamiento:** Monitoriza el espacio libre en disco y alerta si baja de 5GB.
-* **Integración API:** Uso de `java.net.HttpURLConnection` y `URLEncoder` para comunicarse con la API de Telegram.
+### 🚀 Funcionalidades Nuevas (v3.0)
+El bot utiliza una arquitectura de *Polling* (consulta continua) para interactuar contigo:
+
+* 💻 **Comando `/pc`:** Realiza una auditoría instantánea del hardware y devuelve:
+  * Carga de CPU (%).
+  * Uso de RAM (GB usados / Totales).
+  * Estado del Disco C: (Espacio libre y ocupado).
+* 🌍 **Comando `/ip`:** Consulta APIs externas para reportar la IP Pública actual de la red.
+* 🛡️ **Seguridad:** El bot solo responde al ID de chat autorizado (SysAdmin), ignorando a otros usuarios.
 
 ### 📸 Demo del Funcionamiento
-*Así se ve cuando el bot detecta que el sistema está operativo:*
 
-![Captura del Bot](AQUI_TIENES_QUE_SUBIR_TU_CAPTURA_DE_PANTALLA.png)
+*Así responde el bot cuando le pides información:*
+
+![Demo del Bot](AQUI_TIENES_QUE_SUBIR_TU_CAPTURA_DE_PANTALLA.png)
+*(Sube tu captura funcionando aquí)*
 
 ### 🛠️ Tecnologías
 * **Lenguaje:** Java (Nativo, sin frameworks pesados).
-* **Conceptos:** Hilos (`Thread.sleep`), Peticiones HTTP (GET), Manejo de Ficheros (`java.io.File`).
+* **Librerías Clave:** * `java.net.HttpURLConnection` (Para hablar con la API de Telegram).
+  * `com.sun.management.OperatingSystemMXBean` (Para extraer datos reales de CPU/RAM).
+* **Arquitectura:** Bucle infinito con `Thread.sleep` para gestionar el Polling de mensajes.
 
-### ⚙️ Cómo usarlo
-1. Clona el repositorio.
-2. Crea tu propio bot con @BotFather en Telegram.
-3. Edita el archivo `ServerBot.java` y coloca tu `TOKEN` y `CHAT_ID`.
-4. Ejecuta y deja que vigile tu equipo.
+### ⚙️ Cómo usarlo en tu equipo
 
----
-*Proyecto realizado por **Alejandro Montilla** (Estudiante DAM + Técnico ASIR) para automatización de infraestructuras.*
+1. **Clona el repositorio:**
+   ```bash
+   git clone [https://github.com/Jendrick-19/Server-Guardian-Bot.git](https://github.com/Jendrick-19/Server-Guardian-Bot.git)
