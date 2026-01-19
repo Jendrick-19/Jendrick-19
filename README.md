@@ -42,7 +42,7 @@ Soy un profesional **responsable y flexible** con una base sólida en administra
 
 ### 🔧 Proyectos Destacados
 
-#### 🛡️ [Server Guardian Bot](https://github.com/Jendrick-19/Server-Guardian-Bot)
+#### 🛡️ [Server Guardian Bot]([https://github.com/Jendrick-19/Server-Guardian-Bot](https://github.com/Jendrick-19/Server-Guardian-Bot))
 **Herramienta SysAdmin (Java).** Bot de Telegram interactivo que permite auditar el servidor (CPU, RAM, Disco) y consultar la IP pública en tiempo real mediante comandos.
 * **Tech:** `Java Nativo` `API REST` `Polling` `JSON Parsing`
 
