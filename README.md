@@ -1,4 +1,4 @@
-### 👋 Hola, soy Alejandro
+### 👋 Hola, soy Alejandro (Jendrick-19)
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0099ff&height=220&section=header&text=Alejandro%20Montilla&fontSize=50&animation=fadeIn&fontAlignY=35&desc=SysAdmin%20(ASIR)%20%2B%20DAM%20Student&descAlignY=55&descAlign=50" />
@@ -54,7 +54,7 @@ Colección de ejercicios y pequeñas aplicaciones donde aplico la Programación 
 ---
 
 <div align="center">
-  <p>📍 La Guardia (Jaén) | 🎯 Objetivo: Evolutio / Babel (Cloud & Cyber)</p>
+  <p>📍 La Guardia (Jaén) | 🎯 Objetivo: Evolutio</p>
   <a href="https://www.linkedin.com/in/alejandro-montilla-aguilar-b3361530a/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
   </a>
