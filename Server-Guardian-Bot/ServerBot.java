@@ -9,8 +9,8 @@ import java.net.URLEncoder;
 public class ServerBot {
 
     // ⚠️ TUS CREDENCIALES
-    private static final String BOT_TOKEN = "7902953950:AAFG3eEYevprwQVJ2LLdvFcMBk_BHicUDCA"; // Tu token
-    private static final String CHAT_ID = "6125447323"; // Tu ID
+    private static final String BOT_TOKEN = ""; // Tu token
+    private static final String CHAT_ID = ""; // Tu ID
 
     // Variable para no leer el mismo mensaje dos veces (Offset)
     private static long lastUpdateId = 0;
