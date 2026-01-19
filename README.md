@@ -1,4 +1,4 @@
-### 👋 Hola, soy Alejandro (Jendrick-19)
+### 👋 Hola, soy Alejandro
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0099ff&height=220&section=header&text=Alejandro%20Montilla&fontSize=50&animation=fadeIn&fontAlignY=35&desc=SysAdmin%20(ASIR)%20%2B%20DAM%20Student&descAlignY=55&descAlign=50" />
