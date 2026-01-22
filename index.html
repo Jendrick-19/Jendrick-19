@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Alejandro Montilla - Administrador de Sistemas y Desarrollador Full-Stack">
+    <meta name="author" content="Alejandro Montilla Aguilar">
+    <title>Alejandro Montilla | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="#inicio" class="nav__logo">AM</a>
+            <ul class="nav__list">
+                <li><a href="#inicio" class="nav__link">Inicio</a></li>
+                <li><a href="#sobre-mi" class="nav__link">Sobre mí</a></li>
+                <li><a href="#habilidades" class="nav__link">Habilidades</a></li>
+                <li><a href="#proyectos" class="nav__link">Proyectos</a></li>
+                <li><a href="#contacto" class="nav__link">Contacto</a></li>
+            </ul>
+            <button class="nav__toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container hero__content">
+                <p class="hero__greeting">Hola, soy</p>
+                <h1 class="hero__title">Alejandro Montilla</h1>
+                <p class="hero__subtitle">Administrador de Sistemas &amp; Desarrollador Full-Stack</p>
+                <p class="hero__description">
+                    Combinando experiencia en infraestructura con habilidades de ingeniería de software
+                    para construir soluciones seguras y escalables.
+                </p>
+                <div class="hero__buttons">
+                    <a href="#proyectos" class="btn btn--primary">Ver Proyectos</a>
+                    <a href="#contacto" class="btn btn--secondary">Contactar</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="about">
+            <div class="container">
+                <h2 class="section__title">Sobre mí</h2>
+                <div class="about__content">
+                    <div class="about__text">
+                        <p>
+                            Soy un administrador de sistemas en transición hacia el desarrollo full-stack.
+                            Actualmente curso el 1er año de DAM (Desarrollo de Aplicaciones Multiplataforma)
+                            mientras trabajo como Técnico de Sistemas en Innovasur.
+                        </p>
+                        <p>
+                            Cuento con el título de ASIR (Administración de Sistemas Informáticos en Red)
+                            del IES Las Fuentezuelas. Me considero una persona responsable y flexible,
+                            con sólidos conocimientos en administración de sistemas y en evolución constante
+                            hacia la ingeniería DevOps.
+                        </p>
+                        <ul class="about__info">
+                            <li>
+                                <span class="about__info-label">Ubicación</span>
+                                <span class="about__info-value">La Guardia, Jaén, España</span>
+                            </li>
+                            <li>
+                                <span class="about__info-label">Idiomas</span>
+                                <span class="about__info-value">Español (Nativo), Inglés (B1)</span>
+                            </li>
+                            <li>
+                                <span class="about__info-label">Formación</span>
+                                <span class="about__info-value">DAM (en curso) | ASIR</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="skills">
+            <div class="container">
+                <h2 class="section__title">Habilidades</h2>
+                <div class="skills__grid">
+                    <article class="skills__category">
+                        <h3 class="skills__category-title">Desarrollo</h3>
+                        <ul class="skills__list">
+                            <li class="skills__item">Java</li>
+                            <li class="skills__item">MySQL</li>
+                            <li class="skills__item">Git</li>
+                            <li class="skills__item">GitHub</li>
+                        </ul>
+                    </article>
+                    <article class="skills__category">
+                        <h3 class="skills__category-title">Infraestructura &amp; DevOps</h3>
+                        <ul class="skills__list">
+                            <li class="skills__item">Linux</li>
+                            <li class="skills__item">Windows Server</li>
+                            <li class="skills__item">Docker</li>
+                            <li class="skills__item">Kubernetes</li>
+                            <li class="skills__item">Ansible</li>
+                            <li class="skills__item">Proxmox</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="projects">
+            <div class="container">
+                <h2 class="section__title">Proyectos</h2>
+                <div class="projects__grid">
+                    <article class="project__card">
+                        <div class="project__content">
+                            <h3 class="project__title">Server Guardian Bot</h3>
+                            <p class="project__description">
+                                Bot de Telegram desarrollado en Java para monitorización de servidores en tiempo real.
+                                Controla CPU, RAM, disco e IP pública.
+                            </p>
+                            <ul class="project__tags">
+                                <li>Java</li>
+                                <li>Telegram API</li>
+                                <li>Monitorización</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="project__card">
+                        <div class="project__content">
+                            <h3 class="project__title">Kubernetes Cluster on Proxmox</h3>
+                            <p class="project__description">
+                                Despliegue de alta disponibilidad de Kubernetes utilizando automatización con Ansible
+                                sobre infraestructura Proxmox.
+                            </p>
+                            <ul class="project__tags">
+                                <li>Kubernetes</li>
+                                <li>Proxmox</li>
+                                <li>Ansible</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="project__card">
+                        <div class="project__content">
+                            <h3 class="project__title">Java &amp; OOP Laboratory</h3>
+                            <p class="project__description">
+                                Repositorio educativo con patrones de diseño y aplicaciones de consola.
+                                Proyecto en desarrollo continuo.
+                            </p>
+                            <ul class="project__tags">
+                                <li>Java</li>
+                                <li>OOP</li>
+                                <li>Design Patterns</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="section__title">Contacto</h2>
+                <p class="contact__description">
+                    ¿Interesado en colaborar o tienes alguna pregunta? No dudes en contactarme.
+                </p>
+                <div class="contact__links">
+                    <a href="mailto:a.montilla.aguilar19@gmail.com" class="contact__link">
+                        <svg class="contact__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <span>a.montilla.aguilar19@gmail.com</span>
+                    </a>
+                    <a href="https://linkedin.com/in/alejandro-montilla-aguilar-b3361530a/" target="_blank" rel="noopener noreferrer" class="contact__link">
+                        <svg class="contact__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/Jendrick-19" target="_blank" rel="noopener noreferrer" class="contact__link">
+                        <svg class="contact__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Alejandro Montilla. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile navigation toggle
+        const navToggle = document.querySelector('.nav__toggle');
+        const navList = document.querySelector('.nav__list');
+
+        navToggle.addEventListener('click', () => {
+            navList.classList.toggle('nav__list--active');
+            navToggle.classList.toggle('nav__toggle--active');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav__link').forEach(link => {
+            link.addEventListener('click', () => {
+                navList.classList.remove('nav__list--active');
+                navToggle.classList.remove('nav__toggle--active');
+            });
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
